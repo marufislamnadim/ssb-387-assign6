@@ -23,8 +23,11 @@ header .logo{
 	font-weight: 700;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
+	transition: 0.5s;
 }
-
+header .logo:hovar{
+	color: seagreen;
+}	
 .nav{
 	display: inline-block;
 	float: right;
@@ -89,6 +92,7 @@ header .logo{
 	font-size: 12px;
 	font-weight: 400;
 	color: #9FCCFF;
+	padding: 10px 0px;
 }
 .footer p a{
 	text-transform: uppercase;
